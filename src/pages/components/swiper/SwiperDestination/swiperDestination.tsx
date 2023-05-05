@@ -99,7 +99,7 @@ const destinations = [
 ];
 
 import { Mousewheel, Autoplay } from "swiper";
-export function SwiperDestination() {
+export default function SwiperDestination() {
   return (
     <div className="w-full mt-8">
       <Swiper

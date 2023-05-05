@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function AboutMe() {
+export default function AboutMe() {
   return (
     <section id="aboutMe" className="w-full mt-16">
       <div className="max-w-lg">

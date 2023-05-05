@@ -1,9 +1,9 @@
 import Banner from "./components/Banner/banner";
-import { Destinations } from "./components/Destinations/destinations";
+import Destinations  from "./components/Destinations/destinations";
 import Header from "./components/Header/header";
-import { AboutMe } from "./components/AboutMe/sobremim";
-import { ContactMe } from "./components/Contact/contact";
-import { Footer } from "./components/Footer/footer";
+import AboutMe  from "./components/AboutMe/sobremim";
+import ContactMe  from "./components/Contact/contact";
+import Footer  from "./components/Footer/footer";
 
 export default function Home() {
   return (

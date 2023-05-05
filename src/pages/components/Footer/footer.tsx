@@ -1,4 +1,4 @@
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="w-full flex justify-end items-end  text-grayText">
       <div className=" text-base ">

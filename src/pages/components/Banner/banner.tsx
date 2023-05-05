@@ -1,4 +1,4 @@
-import { SwiperBanner } from "../SwiperBanner/SwiperBanner/swiperBanner";
+import  SwiperBanner from "../swiper/SwiperBanner/swiperBanner";
 
 export default function Banner() {
   return (

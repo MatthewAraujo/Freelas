@@ -1,6 +1,6 @@
-import { SwiperDestination } from "../SwiperBanner/SwiperDestination/swiperDestination";
+import SwiperDestination from "../swiper/SwiperDestination/swiperDestination";
 
-export function Destinations() {
+export default function Destinations() {
   return (
     <section id="destinations" className="w-full mt-16">
       <div className="max-w-xl">

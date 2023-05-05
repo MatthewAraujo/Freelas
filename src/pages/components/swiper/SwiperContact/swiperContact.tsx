@@ -10,7 +10,7 @@ const bannerSwiper = [
   },
 ];
 
-export function SwiperContact() {
+export default function SwiperContact() {
   const slides = bannerSwiper;
 
   return (

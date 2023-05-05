@@ -1,7 +1,7 @@
 import { Envelope, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
 import { FacebookLogo } from "phosphor-react";
-import { SwiperContact } from "../SwiperBanner/SwiperContact/swiperContact";
-export function ContactMe() {
+import SwiperContact from "../swiper/SwiperContact/swiperContact";
+export default function ContactMe() {
   return (
     <section id="contact" className="w-full my-16 ">
       <div className="w-full flex items-center flex-col justify-center gap-12 sm:flex-row">

@@ -21,7 +21,7 @@ const bannerSwiper = [
   },
 ];
 
-export function SwiperBanner() {
+export default function SwiperBanner() {
   const slides = bannerSwiper;
 
   return (
