@@ -143,7 +143,7 @@ export default function SwiperDestination() {
                   height={410}
                   src={d.image}
                   alt={d.name}
-                  className="h-[400px] "
+                  className="h-[400px] w-full object-cover  "
                 />
               </div>
               <div className="order-2 group-odd:order-1 ">

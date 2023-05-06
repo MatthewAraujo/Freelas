@@ -1,9 +1,10 @@
 import Banner from "./components/Banner/banner";
-import Destinations  from "./components/Destinations/destinations";
+import Destinations from "./components/Destinations/destinations";
 import Header from "./components/Header/header";
-import AboutMe  from "./components/AboutMe/sobremim";
-import ContactMe  from "./components/Contact/contact";
-import Footer  from "./components/Footer/footer";
+import AboutMe from "./components/AboutMe/sobremim";
+import ContactMe from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
+import { GetStaticProps } from "next";
 
 export default function Home() {
   return (
@@ -13,7 +14,13 @@ export default function Home() {
       <Destinations />
       <AboutMe />
       <ContactMe />
-      <Footer/>
+      <Footer />
     </main>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {},
+  };
+};

@@ -1,4 +1,4 @@
-import { Envelope, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+  import { Envelope, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
 import { FacebookLogo } from "phosphor-react";
 import SwiperContact from "../swiper/SwiperContact/swiperContact";
 export default function ContactMe() {
