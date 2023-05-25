@@ -1,71 +1,65 @@
 import Image from "next/image";
-import { Swiper, SwiperSlide, } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Mousewheel } from "swiper";
 
 const bannerSwiper = [
   {
     id: 1,
-    img: "/galeria/crist.jpg",
+    img: "/galeria/crist.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 2,
-    img: "/galeria/yeahhh.jpg",
+    img: "/galeria/yeahhh.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 3,
-    img: "/galeria/confeitaria.jpg",
+    img: "/galeria/confeitaria.webp",
     title: "Confeitaria colombo",
   },
   {
     id: 4,
-    img: "/galeria/boaviagem.jpg",
+    img: "/galeria/boaviagem.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 5,
-    img: "/galeria/carnaval.jpg",
+    img: "/galeria/carnaval.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 6,
-    img: "/galeria/cristo.jpg",
+    img: "/galeria/cristo.webp",
     title: "Rio de Janeiro",
   },
-  {
-    id: 7,
-    img: "/galeria/paisagem.jpg",
-    title: "Rio de Janeiro",
-  },
+  
   {
     id: 8,
-    img: "/galeria/family.jpg",
+    img: "/galeria/family.webp",
     title: "Rio de Janeiro",
-  }, 
+  },
   {
     id: 9,
-    img: "/galeria/parquenacional.jpg",
+    img: "/galeria/parquenacional.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 10,
-    img: "/galeria/praia.jpg",
+    img: "/galeria/praia.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 10,
-    img: "/galeria/rio.jpg",
+    img: "/galeria/rio.webp",
     title: "Rio de Janeiro",
   },
   {
     id: 10,
-    img: "/galeria/rj.jpg",
+    img: "/galeria/rj.webp",
     title: "Rio de Janeiro",
   },
-
-
 ];
 
 export default function SwiperContact() {
@@ -82,7 +76,6 @@ export default function SwiperContact() {
           disableOnInteraction: false,
         }}
         modules={[Mousewheel, Autoplay]}
-
         className="w-[600px]"
       >
         {slides.map((slide) => (
