@@ -22,12 +22,13 @@ export default function AboutMe() {
             Análise e Desenvolvimento de Sistemas.
           </p>
         </div>
-        <div className="w-full sm:w-1/2 rounded-full p-4 grid place-items-center">
+        <div className="w-full sm:w-1/2  rounded-full p-4 grid place-items-center">
           <Image
-            src="/regina.png"
+            src="/profile.png"
             alt="Regina de Paula"
             width={250}
             height={250}
+            className=" w-[250px] h-[250px] rounded-full"
           />
         </div>
       </div>

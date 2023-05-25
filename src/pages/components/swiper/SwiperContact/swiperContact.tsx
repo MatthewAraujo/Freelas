@@ -1,13 +1,71 @@
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, } from "swiper/react";
 import "swiper/css";
+import { Autoplay, Mousewheel } from "swiper";
 
 const bannerSwiper = [
   {
     id: 1,
-    img: "/rio.png",
+    img: "/galeria/crist.jpg",
     title: "Rio de Janeiro",
   },
+  {
+    id: 2,
+    img: "/galeria/yeahhh.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 3,
+    img: "/galeria/confeitaria.jpg",
+    title: "Confeitaria colombo",
+  },
+  {
+    id: 4,
+    img: "/galeria/boaviagem.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 5,
+    img: "/galeria/carnaval.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 6,
+    img: "/galeria/cristo.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 7,
+    img: "/galeria/paisagem.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 8,
+    img: "/galeria/family.jpg",
+    title: "Rio de Janeiro",
+  }, 
+  {
+    id: 9,
+    img: "/galeria/parquenacional.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 10,
+    img: "/galeria/praia.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 10,
+    img: "/galeria/rio.jpg",
+    title: "Rio de Janeiro",
+  },
+  {
+    id: 10,
+    img: "/galeria/rj.jpg",
+    title: "Rio de Janeiro",
+  },
+
+
 ];
 
 export default function SwiperContact() {
@@ -19,7 +77,13 @@ export default function SwiperContact() {
         slidesPerView={1}
         direction="horizontal"
         loop={true}
-        effect={"fade"}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        modules={[Mousewheel, Autoplay]}
+
+        className="w-[600px]"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>

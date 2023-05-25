@@ -36,7 +36,7 @@ export default function ContactMe() {
                 <div className="rounded-full bg-greenAqua p-1">
                   <FacebookLogo size={22} color="#fff" />
                 </div>
-                <a target="_blank" href="">
+                <a target="_blank" href="https://www.facebook.com/reginadepaularj?mibextid=ZbWKwL">
                   {" "}
                   Regina de paula
                 </a>
