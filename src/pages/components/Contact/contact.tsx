@@ -4,7 +4,7 @@ import SwiperContact from "../swiper/SwiperContact/swiperContact";
 export default function ContactMe() {
   return (
     <section id="contact" className="w-full my-16 ">
-      <div className="w-full flex items-center flex-col justify-center gap-12 sm:flex-row">
+      <div className="w-full flex items-center flex-col overflow-x-hidden justify-center gap-12 sm:flex-row">
         <div className="w-full sm:w-1/2 rounded-full  grid h-full place-items-center">
           <SwiperContact />
         </div>
