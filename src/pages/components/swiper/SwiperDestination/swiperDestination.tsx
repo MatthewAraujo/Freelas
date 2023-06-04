@@ -28,7 +28,7 @@ const destinations = [
   {
     id: 4,
     name: "Jardim Botanico",
-    image: "/jardim-botanico.jpg",
+    image: "/jardim.png",
     description:
       "O Jardim Botânico é um tesouro verde no Rio de Janeiro, com mais de 8.000 espécies de plantas e árvores, muitas delas raras e ameaçadas de extinção. Além de seus jardins exuberantes, o local abriga monumentos históricos, como a estufa de ferro e vidro, e uma reserva de Mata Atlântica preservada, que oferece trilhas para caminhadas e observação da fauna e flora. Uma experiência inesquecível para os amantes da natureza.",
   },

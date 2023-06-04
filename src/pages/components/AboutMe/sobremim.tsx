@@ -18,7 +18,7 @@ export default function AboutMe() {
             Regina de Paula. Moro no Rio de Janeiro há 18 anos, sou apaixonada
             pela cidade. Sou Guia de Turismo, com licença desde 2010. Tenho 72
             anos mas muita energia e disposição. Conheço todas muitas histórias
-            sobre os pontos turísticos, já li muito a respeito! 
+            sobre os pontos turísticos, já li muito a respeito! Falo inglês e espanhol, um pouco de francês e italiano.
           </p>
         </div>
         <div className="w-full sm:w-1/2  rounded-full p-4 grid place-items-center">
